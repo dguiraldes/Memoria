@@ -28,7 +28,7 @@ class Selenium_window:
         time.sleep(2)
    
     def login(self,em,pas):
-        sesion=sel.driver.find_element_by_xpath("/html/body/nav/div/ul[1]/li[5]/a")
+        sesion=self.driver.find_element_by_xpath("/html/body/nav/div/ul[1]/li[5]/a")
         sesion.click()
         time.sleep(1)
         email=sel.driver.find_element_by_id("email")
