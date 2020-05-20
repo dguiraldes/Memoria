@@ -221,8 +221,8 @@ sectorDict={
 
 
 if __name__ == "__main__":
-    user='dgurialdes@hotmail.com'
-    password='glig2832'
+    user= #user
+    password= #password
     sel=Selenium_window()
     sel.webPage('http://www.genealog.cl')
     sel.search('')
